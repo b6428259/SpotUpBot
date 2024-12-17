@@ -16,7 +16,7 @@ openai_client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 
 # Configuration from environment variables
 DISCORD_WEBHOOK_URLS = {
-    'github_feeds': os.getenv('GITHUB_FEEDS_WEBHOOK'),
+    'github_feeds': os.getenv('FEEDS_WEBHOOK'),
     'changelog': os.getenv('CHANGELOG_WEBHOOK'),
     'issues': os.getenv('ISSUES_WEBHOOK')
 }
